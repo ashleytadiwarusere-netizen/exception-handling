@@ -1,0 +1,77 @@
+Nov 02, 2026 1:04:49 PM MarksImporter record
+WARNING: Line 2 | java.lang.NumberFormatException: For input string: "ABC"
+java.lang.NumberFormatException: For input string: "ABC"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at MarksImporter.importMarks(MarksImporter.java:59)
+	at MarksImporter.main(MarksImporter.java:93)
+
+Nov 02, 2026 1:04:50 PM MarksImporter record
+WARNING: Line 3 | MarksImporter$DuplicateStudentException: Student number already exists: ICT001
+MarksImporter$DuplicateStudentException: Student number already exists: ICT001
+	at MarksImporter.importMarks(MarksImporter.java:67)
+	at MarksImporter.main(MarksImporter.java:93)
+
+Nov 02, 2026 1:07:54 PM MarksImporter record
+WARNING: Line 1 | java.lang.NumberFormatException: For input string: "ABC"
+java.lang.NumberFormatException: For input string: "ABC"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at MarksImporter.importMarks(MarksImporter.java:59)
+	at MarksImporter.main(MarksImporter.java:93)
+
+Nov 02, 2026 1:09:02 PM MarksImporter record
+WARNING: Line 2 | MarksImporter$DuplicateStudentException: Student number already exists: ICT001
+MarksImporter$DuplicateStudentException: Student number already exists: ICT001
+	at MarksImporter.importMarks(MarksImporter.java:67)
+	at MarksImporter.main(MarksImporter.java:93)
+
+Nov 02, 2026 1:10:34 PM MarksImporter record
+WARNING: Line 1 | java.lang.IllegalArgumentException: Mark 120 is outside 0..100
+java.lang.IllegalArgumentException: Mark 120 is outside 0..100
+	at MarksImporter.importMarks(MarksImporter.java:61)
+	at MarksImporter.main(MarksImporter.java:93)
+
+Nov 02, 2026 1:12:29 PM MarksImporter record
+WARNING: Line 2 | java.lang.NumberFormatException: For input string: "ABC"
+java.lang.NumberFormatException: For input string: "ABC"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at MarksImporter.importMarks(MarksImporter.java:59)
+	at MarksImporter.main(MarksImporter.java:93)
+
+Nov 02, 2026 1:12:29 PM MarksImporter record
+WARNING: Line 3 | MarksImporter$DuplicateStudentException: Student number already exists: ICT001
+MarksImporter$DuplicateStudentException: Student number already exists: ICT001
+	at MarksImporter.importMarks(MarksImporter.java:67)
+	at MarksImporter.main(MarksImporter.java:93)
+
+Nov 02, 2026 1:27:35 PM MarksImporter record
+WARNING: Line 2 | java.lang.NumberFormatException: For input string: "ABC"
+java.lang.NumberFormatException: For input string: "ABC"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at MarksImporter.importMarks(MarksImporter.java:59)
+	at MarksImporter.main(MarksImporter.java:93)
+
+Nov 02, 2026 1:27:35 PM MarksImporter record
+WARNING: Line 3 | MarksImporter$DuplicateStudentException: Student number already exists: ICT001
+MarksImporter$DuplicateStudentException: Student number already exists: ICT001
+	at MarksImporter.importMarks(MarksImporter.java:67)
+	at MarksImporter.main(MarksImporter.java:93)
+
+Nov 02, 2026 1:30:23 PM MarksImporter record
+WARNING: File problem | java.io.FileNotFoundException: absent.txt (The system cannot find the file specified)
+java.io.FileNotFoundException: absent.txt (The system cannot find the file specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:213)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:152)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:106)
+	at java.base/java.io.FileReader.<init>(FileReader.java:60)
+	at MarksImporter.importMarks(MarksImporter.java:42)
+	at MarksImporter.main(MarksImporter.java:93)
+
